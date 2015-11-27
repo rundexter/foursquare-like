@@ -4,23 +4,21 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "VENUE_ID",
+            "title":"VENUE_ID"
+        },
+        {
+            "id": "set",
+            "title":"set 1-like, 2-unlike"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "likes",
+            "title":"likes"
         }
-      */
     ],
     "title": "Foursquare Like" /* Required.A display name for the module */
 }
